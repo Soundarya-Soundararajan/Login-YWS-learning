@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(40, 165, 199);
+}
+.main{
+    background-color: white;
+    width: 35em;
+    height: 40em;
+    border-radius: 1em;
+    margin-left: 30em;
+    margin-top: 3rem;
+    box-shadow: 4px 6px 20px rgb(97, 96, 96);
+}
+img{
+    width: 12rem;
+    margin-left: 11.5em;
+    margin-top: 4rem;
+}
+
+
+.inputbox1{
+    margin-bottom: 0.5em;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    width: 23rem;
+    height: 2.5rem;
+}
+.inputbox2{
+    margin-left: 6rem;
+    width: 23rem;
+    height: 2.5rem;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 0.4em;
+    padding: 0.6rem 8rem;
+    margin-left: 6rem;
+    width: 23.4rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+.line1{
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+}
+.line2, .line1 {
+    border-bottom: .1rem solid rgb(130, 130, 130);
+    width: 9rem;
+}
+.line2{   
+    margin-left: 20.3rem;
+    margin-top: -1.9rem;
+}
+h3{
+    margin-left: 17rem;
+    color: rgb(83, 83, 83);
+    margin-top: -0.7rem;
+}
+i{
+    font-size: 1.5em;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    color: rgb(0, 0, 139);
+}
+h2{
+    margin-left: 11.2rem;
+    color: rgb(0, 0, 139);
+    margin-top: -1.6rem;
+}
+h4{
+    margin-left: 14.2rem;
+    color: rgb(0, 141, 163);
+    margin-top: 1.2rem;
+}
+.seconddiv{
+    background-color: white;
+    border-style: groove;
+    width: 28rem;
+    height: 4.2rem;
+    margin-top: 2.5rem;
+    margin-left: 3.5rem;
+}
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+input::placeholder {
+padding-left: 1em;
+}
