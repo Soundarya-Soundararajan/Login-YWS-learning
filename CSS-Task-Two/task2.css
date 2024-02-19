@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-container{
+    /* background-color: rgba(255, 132, 0, 0.63); */
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-container{
+    width: 32vw;
+    display: flex;
+}
+
+.sub-container-one{
+    background-color: blue;
+    width: 16vw;
+    height: 44.5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    position: relative;
+    left: 1em;
+    color: white;
+}
+
+.first-head{
+    margin-top: 1.9em;
+    color: rgba(255, 255, 255, 0.724);
+    font-size: 0.8em;
+}
+
+.circle-div{
+    background: linear-gradient(to bottom, darkblue, blue 100%);
+    width: 9.5vw;
+    height: 19vh;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2em;
+    margin-top: 1.5em;
+}
+
+.second-head{
+    font-size: 2.8em;
+}
+
+.third-head{
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.fourth-head{
+    font-size: 1.05em;
+    margin-top: 1.5em;
+}
+
+.para-one{
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.724);
+    margin-top: 1em;
+}
+
+
+.sub-container-two{
+    background-color: white;
+    width: 16vw;
+    height: 44.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0em 1em 1em 0em;
+    box-shadow: 0.1em 0.1em 2em rgba(0, 0, 255, 0.174);
+    gap: 0.8em;
+}
+
+.fifth-head{
+    margin-top: 1.25em;
+    margin-right: 6em;
+    font-size: 1em;
+    color: rgb(43, 53, 79);
+}
+
+.div-one{
+    background-color: rgba(240, 212, 186, 0.18);
+    width: 12vw;
+    height: 2.6vw;
+    border-radius: 0.6em;
+    margin-left: 1em;
+}
+
+.unorderlist-one{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.4em;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    font-size: 0.85em;
+    color: orangered;
+}
+
+.unorderlist-two{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1.3em;
+    margin-right: 1.3em;
+    gap: 0.2em;
+    color: rgb(56, 70, 105);
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.slashbar-one, .slashbar-two, .slashbar-three, .slashbar-four{
+    color: rgba(114, 113, 113, 0.724);
+}
+
+.div-two{
+        background-color: rgba(239, 240, 186, 0.18);
+        width: 12vw;
+        height: 2.6vw;
+        border-radius: 0.6em;
+        margin-left: 1em;
+}
+
+.unorderlist-three{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.4em;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    font-size: 0.85em;
+    color: orange;
+}
+
+.unorderlist-four{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1.3em;
+    margin-right: 1.3em;
+    gap: 0.2em;
+    color: rgb(56, 70, 105);
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+
+.div-three{
+    background-color: rgba(186, 240, 218, 0.18);
+    width: 12vw;
+    height: 2.6vw;
+    border-radius: 0.6em;
+    margin-left: 1em;
+}
+
+.unorderlist-five{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.4em;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    font-size: 0.85em;
+    color: rgb(5, 189, 143);
+    
+}
+
+.unorderlist-six{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1.3em;
+    margin-right: 1.3em;
+    gap: 0.2em;
+    color: rgb(56, 70, 105);
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+
+.div-four{
+    background-color: rgba(186, 196, 240, 0.18);
+    width: 12vw;
+    height: 2.6vw;
+    border-radius: 0.6em;
+    margin-left: 1em;
+}
+
+.unorderlist-seven{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.4em;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    font-size: 0.85em;
+    color: blue;
+    
+}
+
+.unorderlist-eight{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1.3em;
+    margin-right: 1.3em;
+    gap: 0.2em;
+    color: rgb(56, 70, 105);
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+button{
+    width: 12vw;
+    height: 4.5vh;
+    border: none;
+    background-color:rgb(43, 53, 79);
+    color: white;
+    border-radius: 1.3em;
+    margin-left: 1em;
+    margin-top: 0.8em;
+}
